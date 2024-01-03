@@ -1,0 +1,18 @@
+import java.util.*;
+class Array1
+{
+    public static void main(String[]args)
+    {
+        int a[],i;
+        Scanner s=new Scanner(System.in);
+        a=new int[5];
+        for(i=0;i<5;i++)
+        {
+            a[i]=s.nextInt();
+        }
+        for(i=0;i<5;i++)
+        {
+        System.out.print(a[i]+" ");
+        }
+    }
+}
